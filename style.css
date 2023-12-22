@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-color: #262626;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+/* .navbar {
+  height: 70px;
+} */
+
+.logo a {
+  color: #fff;
+  font-size: 30px;
+}
+
+.navmenu {
+  display: flex;
+  gap: 30px;
+}
+
+.navmenu li a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropmenu {
+  position: absolute;
+  background-color: aliceblue;
+  padding: 20px;
+  top: 30px;
+  left: 0;
+  display: none;
+}
+
+.dropmenu li {
+  padding: 10px 0;
+}
+
+.dropmenu li a {
+  color: #262626;
+}
+
+.show {
+  display: block;
+}
